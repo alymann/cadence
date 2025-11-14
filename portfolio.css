@@ -192,8 +192,63 @@ header a{
 }
 #comics{
     background-color: #F6F3ED;
+    height: 170vh;
 }
-
+.content-animation{
+    position: absolute;
+    /* justify-content: center; */
+    left: 25%;
+    padding-left: 5%;
+    top: 215%;
+}
+.anim{
+    position: absolute;
+}
+#still{
+    position: absolute;
+    z-index: 4;
+}
+#still:hover{
+    opacity: 0.1;
+}
+#p1{
+    position:absolute;
+    height: 420px;
+    top: 40px;
+}
+#p2{
+    position:absolute;
+    height: 420px;
+    top: 430px;
+}
+/* #favicon{
+    position: absolute;
+    right: 25%;
+    top: 18%;
+    padding-left: 10%;
+}
+#img-left, #img-right, #img-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: #694ea3 solid 4px;
+}
+#img-left, #img-right{
+    z-index: 1;
+}
+#img-top{
+    z-index: 2;
+}
+#img-right{
+    transform: rotate(7deg);
+    transform-origin: 10% 150%;
+    opacity: 0.8;
+}
+#img-left {
+    transform: rotate(-7deg);
+    transform-origin: 90% 100%;
+    opacity: 0.8;
+} */
 
 
 /* Projects Section */

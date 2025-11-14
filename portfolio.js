@@ -42,3 +42,25 @@ document.addEventListener("scroll", () => {
       x.className = "nav";
     }
   } 
+
+const videos = document.querySelectorAll("video")
+
+videos.forEach(video => {
+  video.addEventListener("mouseover", function () {
+    video.currentTime = 0;
+    this.play()
+  })
+  
+  video.addEventListener("mouseout", function () {
+    this.pause()
+  })
+  
+  video.addEventListener("touchstart", function () {
+    video.currentTime = 0;
+    this.play()
+  })
+  
+  video.addEventListener("touchend", function () {
+    this.pause()
+  })
+})
