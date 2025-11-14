@@ -182,7 +182,7 @@ header a{
 
 
 /* Experience Section */
-#exp .button{
+#comics .button{
     padding: 2%;
     border: none;
 }
@@ -190,14 +190,14 @@ header a{
     display: flex;
     flex-direction: row;
 }
-#exp{
+#comics{
     background-color: #F6F3ED;
 }
 
 
 
 /* Projects Section */
-#projects{
+#art{
     background-color: #DFC7F4;
 }
 .tools{
@@ -243,7 +243,7 @@ header a{
 
 
 /* Contact Section */
-#us{
+#dev{
     background-color: #F6F3ED;
 }
 #row{
@@ -256,7 +256,7 @@ header a{
 #row div{
     width: 250px;
   }
- #us .content{
+ #dev .content{
     display: flex;
     flex-direction: column;
     gap: 24px;
