@@ -198,7 +198,7 @@ header a{
     position: absolute;
     /* justify-content: center; */
     left: 25%;
-    padding-left: 5%;
+    padding-left: 4%;
     top: 215%;
 }
 .anim{
@@ -206,50 +206,53 @@ header a{
 }
 #still{
     position: absolute;
-    z-index: 4;
+    z-index: 6;
+    top: -15px;
+    height: 465px;
 }
-#still:hover{
-    opacity: 0.1;
+#still:hover, #still2:hover, #still3:hover {
+    opacity: 0;
 }
 #p1{
     position:absolute;
-    height: 420px;
-    top: 40px;
+    z-index: 5;
+    top: -15px;
+    height: 465px;
+}
+#still2{
+    position: absolute;
+    z-index: 5;
+    top: 415px;
+    height: 460px;
 }
 #p2{
     position:absolute;
-    height: 420px;
-    top: 430px;
+    top: 415px;
+    height: 460px;
+    border-right: #000000 solid 9px;
 }
-/* #favicon{
+#still4{
     position: absolute;
-    right: 25%;
-    top: 18%;
-    padding-left: 10%;
+    z-index: 4;
+    top: 400px;
+    height: 465px;
 }
-#img-left, #img-right, #img-top{
+#still3{
     position: absolute;
-    top: 0;
-    left: 0;
-    border: #694ea3 solid 4px;
+    z-index: 5;
+    top: 800px;
+    height: 460px;
+    background-color: #000000;
+    border-right: #000000 solid 9px;
 }
-#img-left, #img-right{
-    z-index: 1;
+#p3{
+    position:absolute;
+    z-index: 4;
+    top: 800px;
+    height: 460px;
+    border-right: #000000 solid 9px;
+    /* opacity: 0; */
 }
-#img-top{
-    z-index: 2;
-}
-#img-right{
-    transform: rotate(7deg);
-    transform-origin: 10% 150%;
-    opacity: 0.8;
-}
-#img-left {
-    transform: rotate(-7deg);
-    transform-origin: 90% 100%;
-    opacity: 0.8;
-} */
-
 
 /* Projects Section */
 #art{

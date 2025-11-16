@@ -43,7 +43,7 @@ document.addEventListener("scroll", () => {
     }
   } 
 
-const videos = document.querySelectorAll("video")
+const videos = document.querySelectorAll(".gif")
 
 videos.forEach(video => {
   video.addEventListener("mouseover", function () {
