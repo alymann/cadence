@@ -258,6 +258,36 @@ header a{
 #art{
     background-color: #DFC7F4;
 }
+.concept-art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.concept-art img{
+    width: 450px;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+#band{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+}
+#band-art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+
+
+
+
+
+
 .tools{
     display: flex;
     gap: 15px;
