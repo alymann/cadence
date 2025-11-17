@@ -222,35 +222,34 @@ header a{
 #still2{
     position: absolute;
     z-index: 5;
-    top: 415px;
+    top: 440px;
     height: 460px;
 }
 #p2{
     position:absolute;
-    top: 415px;
+    top: 440px;
     height: 460px;
-    border-right: #000000 solid 9px;
+    border-right: #ffffff solid 9px;
 }
 #still4{
     position: absolute;
     z-index: 4;
-    top: 400px;
+    top: 425px;
     height: 465px;
 }
 #still3{
     position: absolute;
-    z-index: 5;
-    top: 800px;
+    z-index: 2;
+    top: 840px;
     height: 460px;
-    background-color: #000000;
-    border-right: #000000 solid 9px;
+    background-color: #ffffff;
+    border-right: #ffffff solid 9px;
 }
 #p3{
     position:absolute;
-    z-index: 4;
-    top: 800px;
+    top: 840px;
     height: 460px;
-    border-right: #000000 solid 9px;
+    border-right: #ffffff solid 9px;
     /* opacity: 0; */
 }
 
